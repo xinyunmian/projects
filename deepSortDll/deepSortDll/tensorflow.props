@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>F:\tensorflow-1.4.0\tensorflow\contrib\cmake\build\eigen\src\eigen;F:\tensorflow-1.4.0\tensorflow\contrib\cmake\build\protobuf\src;F:\tensorflow-1.4.0\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src;F:\tensorflow-1.4.0\tensorflow\contrib\cmake\build\nsync\install\include;F:\tensorflow-1.4.0;F:\tensorflow-1.4.0\tensorflow\contrib\cmake\build;$(IncludePath)</IncludePath>
+    <LibraryPath>F:\tensorflow-1.4.0\tensorflow\contrib\cmake\build\protobuf\src\protobuf\Release;F:\tensorflow-1.4.0\tensorflow\contrib\cmake\build\Release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>tensorflow.lib;libprotobuf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>tf\build\eigen\src\eigen;tf\build\protobuf\src;tf\build\protobuf\src\protobuf\src;tf\build\nsync\install\include;tf\tf1.4;tf\build;tf\pthreads\Pre-built.2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>tf\pthreads\Pre-built.2\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup />
+  <ItemGroup />
+</Project>
